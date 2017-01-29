@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="epirss.controller.SignUpController">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="1024.0">
+         <children>
+            <TextField fx:id="email" alignment="CENTER" layoutX="418.0" layoutY="236.0" prefHeight="27.0" prefWidth="190.0" promptText="Email" />
+            <PasswordField fx:id="password" alignment="CENTER" layoutX="418.0" layoutY="264.0" prefHeight="27.0" prefWidth="190.0" promptText="Password" />
+            <Button fx:id="back" alignment="CENTER" layoutX="418.0" layoutY="334.0" mnemonicParsing="false" text="Back" />
+            <Button fx:id="create" alignment="CENTER" layoutX="545.0" layoutY="334.0" mnemonicParsing="false" text="Create" />
+         </children>
+      </Pane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
